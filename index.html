@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Compliments</title>
+  <meta name="description" content="Random Nice Thing Generator">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+  <p class="msg"></p>
+
+
+  <script type="text/javascript">
+    var messages = [
+      "Looking good.",
+      "Have a great day.",
+      "I like your shirt.",
+      "That looks nice on you.",
+      "I disagree with anyone who disagrees with you.",
+      "Have you been working out?",
+      "Take a break; you've earned it.",
+      "I support all of your decisions.",
+      ":)",
+      "You look perfect.",
+      "Don't worry. You'll do great.",
+      "The Force is strong with you.",
+      "I believe in you.",
+      "You're very talented.",
+      "You are intelligent.",
+      "You are interesting.",
+      "You are smart.",
+      "You are delightful.",
+      "You are kind.",
+      "You are special.",
+      "You are excellent.",
+      "You Rock.",
+      "You make a difference.",
+      "You're doing great things.",
+      "You seem nice."
+    ];
+
+    var i = Math.floor(Math.random() * messages.length)
+
+    var element = messages[i];
+
+    var msg = document.querySelectorAll('.msg')[0];
+
+    msg.innerHTML = element;
+
+  </script>
+
+</body>
+
+</html>
