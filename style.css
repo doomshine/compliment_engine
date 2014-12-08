@@ -4,24 +4,54 @@
 
 .msg {
   color: #3498db;
-    font-size: 72px;
-    text-align: center;
-    font-family: Helvetica, sans-serif;
-    font-weight: 700;
-    position: relative;
-    top: 35vh;
-    left: auto;
-    opacity:0;
+  font-size: 72px;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-weight: 700;
+  position: relative;
+  top: 32vh;
+  left: auto;
+  opacity:0;
 
-    -webkit-animation:fadeIn ease-in 1;
-    -moz-animation:fadeIn ease-in 1;
-    animation:fadeIn ease-in 1;
+  -webkit-animation:fadeIn ease-in 1;
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
 
-    -webkit-animation-fill-mode:forwards;
-    -moz-animation-fill-mode:forwards;
-    animation-fill-mode:forwards;
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
 
-    -webkit-animation-duration:0.45s;
-    -moz-animation-duration:0.45s;
-    animation-duration:0.45s;
+  -webkit-animation-duration:0.45s;
+  -moz-animation-duration:0.45s;
+  animation-duration:0.45s;
+}
+
+.reload-bttn {
+  font-family: Helvetica, sans-serif;
+  font-weight: 100;
+  color: white;
+  background: #3498db;
+  position: absolute;
+  top: 75vh;
+  left: 50%;
+  margin-left: -60px;
+  width: 120px;
+  height: 40px;
+  font-size: 16px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+
+.reload-bttn:hover {
+  color: #3498db;
+  background: white;
+  border: 1px solid #3498db;
+}
+
+.reload-bttn:active {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  border: none;
 }
