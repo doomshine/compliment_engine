@@ -9,7 +9,7 @@
   font-family: Helvetica, sans-serif;
   font-weight: 700;
   position: relative;
-  top: 32vh;
+  top: 27vh;
   left: auto;
   opacity:0;
 
@@ -31,8 +31,8 @@
   font-weight: 100;
   color: white;
   background: #3498db;
-  position: absolute;
-  top: 75vh;
+  position: relative;
+  top: 36vh;
   left: 50%;
   margin-left: -60px;
   width: 120px;
