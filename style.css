@@ -10,7 +10,7 @@
   font-weight: 700;
   position: relative;
   top: 27vh;
-  left: auto;
+  margin: 0 auto;
   opacity:0;
 
   -webkit-animation:fadeIn ease-in 1;
